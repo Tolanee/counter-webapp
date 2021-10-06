@@ -1,0 +1,43 @@
+*{
+  margin: 30px auto;
+  text-align: center;
+}
+body{
+  background-color: rgb(22, 27, 49);
+}
+.container{
+  background-color: rgb(255, 255, 255);
+  width:30%;
+  text-align: center;
+ 
+}
+.header{
+ padding-top: 30px ;
+}
+
+.container .value{
+  font-size: 70px;
+  font-weight: 900;
+}
+
+
+.decrease{
+  background-color: white;
+  color: red ;
+  height: 30px;
+  border: 1px  solid rgb(22, 27, 49);
+}
+.reset{
+  background-color: white;
+  color: rgb(23, 28, 75);
+  height: 30px;
+  border: 1px  solid rgb(22, 27, 49);
+
+}
+.increase{
+  background-color: white;
+  color: rgb(40, 179, 81);
+  height: 30px;
+  border: 1px  solid rgb(22, 27, 49);
+
+}
