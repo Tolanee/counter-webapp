@@ -17,18 +17,21 @@ function btnClicked(e){
     value.style.color = "rgb(40, 179, 81)";
     header.style.color = "rgb(40, 179, 81)";
     
- }else if(styles.contains('decrease')){
+ }else if(styles.contains('decrease') && value.textContent > 0){
    count--
+   
    value.style.color = "red" ;
    header.style.color = "red" ;
-
+   
  }else{
-  count = 0
-  value.style.color = "rgb(23, 28, 75)" ;
+   count =0
+   value.style.color = "rgb(23, 28, 75)" ;
   header.style.color = "rgb(23, 28, 75)" ;
 
  }
   
  
  value.textContent = count
+
+ 
 }
